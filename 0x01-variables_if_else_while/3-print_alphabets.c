@@ -1,29 +1,21 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
- * main - Entry main
- * main - Prints Alphabets in lower case
+ * main - main function
  *
  * Return: Always 0 (success)
  */
-#include <stdio.h>
+
 int main(void)
 {
-char letter = 'a';
+	char i;
 
-while (letter <= 'z')
-{
-putchar(letter);
-letter++;
+	for (i = 'a' ; i <= 'z' ; i++)
+		putchar(i);
+	for (i = 'A' ; i <= 'Z' ; i++)
+		putchar(i);
+	putchar('\n');
+	return (0);
 }
-letter = 'A';
-
-while (letter <= 'Z')
-{
-putchar(letter);
-letter++;
-}
-putchar("\n");
-return (0);
-}
-
