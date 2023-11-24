@@ -2,6 +2,6 @@
 
 int main()
 {
-	int a = 34;
-	printf("a = %d", a);
+	int a = 6;
+	printf("%d", a);
 }
